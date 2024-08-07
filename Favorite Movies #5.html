@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<style>
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: deeppink;
+    font-weight: 700;
+}
+.container {
+    margin-top:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 46px;
+    padding: 10px;
+    background-color: #141313;
+}
+
+.movie-box {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: #232846;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 300px;
+    text-align: center;
+}
+
+.movie-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #db3434; 
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.movie-box ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.movie-box ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #faf9d9;
+}
+
+@media (max-width: 600px) {
+    .movie-box {
+        width: 90%;
+    }
+}
+
+</style>
+<body>
+    <center> <h1> YOGESH's FAVORITE MOVIES </h1></center>
+    <div class="container">     
+        <div class="movie-box">
+            <ol>
+                <li class="movie-name">Ghilli</li>
+            </ol>
+            <ul>
+                <li class="detail">Year: 2004</li>
+                <li class="detail">Starring: Vijay, Trisha, Prakash raj</li>
+                <li class="detail"> Synopsis : I become a fanboy of this man because of this man himself Vijay . This movie is like a nostalogia to me. If someone don't like this movie I'll tell who cares I don't like you either 😉</li>
+            </ul>
+        </div>    
+        <div class="movie-box">
+            <ol>
+                <li class="movie-name"> Vada Chennai</li>
+            </ol>
+            
+            <ul>
+                <li class="detail">Year: 2018</li>
+                <li class="detail">Starring: Dhanush,Ameer,Samuthirakani</li>
+                <li class="detail">Synopsis: For me this is Cinema ! Writting and story telling in this movie which made the entire film in to an cult classic movie among all the other gangster movie 🎀</li>
+            </ul>
+        </div>
+        <div class="movie-box">
+            <ol>
+                <li class="movie-name"> Moonu </li>
+            </ol>
+            <ul>
+                <li class="detail">Year: 2012</li>
+                <li class="detail">Starring: Dhanush,Shruthihassan,Sk</li>
+                <li class="detail">Synopsis: Unfinished but beautifull love story . Aww this movie hit me different and the ost of this movie still ruling my playlist. Every film come and go This one remains special movie to Me forever 🧡</li>
+            </ul>
+        </div>
+        <div class="movie-box">
+            <ol>
+                <li class="movie-name">Avengers: End Game</li>
+            </ol>           
+            <ul>
+                <li class="detail">Year: 2019</li>
+                <li class="detail">Starring: Robert Downey,Chris evans,Scarlet ,Tom Holland</li>
+                <li class="detail">Synopsis: This is Perfect example of how a beautifull journey should end . Epic battles,Emotion,Love,Humaour Everything Perfectly balanced.It's not just a movie it's an emotion for every marvel fans💝 ? what say and I'm a Dc fanboy 🐱‍👤</li>
+            </ul> 
+        </div>
+        <div class="movie-box">
+            <ol>
+                <li class="movie-name">Oh My Kadavule</li>
+            </ol>           
+            <ul>
+                <li class="detail">Year: 2020</li>
+                <li class="detail">Starring: Ashok Selvan,Rithika Singh,VJS,GVM</li>
+                <li class="detail">Synopsis: Its a Feeeel Good movie which carries beautifull tale of love,friendship,and most importantly second chance for a life . I will cherish this Film forever 💎</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
